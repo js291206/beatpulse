@@ -4,17 +4,10 @@
     <meta charset="UTF-8" />
     <title>Netlify CMS</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/netlify-cms@^2.10.0/dist/netlify-cms.css" />
   </head>
   <body>
     <div id="nc-root"></div>
-
-    <!-- Delay Netlify CMS init until after DOM is ready -->
-    <script>
-      window.addEventListener("DOMContentLoaded", function () {
-        var script = document.createElement("script");
-        script.src = "https://unpkg.com/netlify-cms@^2.10.0/dist/netlify-cms.js";
-        document.body.appendChild(script);
-      });
-    </script>
+    <script src="https://unpkg.com/netlify-cms@^2.10.0/dist/netlify-cms.js"></script>
   </body>
 </html>
