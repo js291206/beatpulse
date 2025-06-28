@@ -1,7 +1,8 @@
 backend:
-  name: github
-  repo: js291206/beatpulse  # Change to your GitHub repo
+  backend:
+  name: git-gateway
   branch: main
+  auth_endpoint: https://beatpulse1.netlify.app/.netlify/functions/cms
 
 media_folder: "assets"
 public_folder: "/assets"
