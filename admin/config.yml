@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: js291206/beatpulse  # Change to your GitHub repo
   branch: main
 
 media_folder: "assets"
